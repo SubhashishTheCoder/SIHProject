@@ -1,0 +1,92 @@
+[
+    {
+        "question": "If you had to choose a fun project for the weekend, what would it be? 🧑‍💻",
+        "options": {
+            "a": "Building or fixing something, like a model airplane or a computer.",
+            "b": "Writing a story, painting, or debating a topic with friends.",
+            "c": "Creating a budget for a fictional trip or organizing a small event for your friends.",
+            "d": "Conducting a small experiment, like testing which soil is best for a plant."
+        }
+    },
+    {
+        "question": "Which section of a newspaper or news app do you find yourself reading most often? 📰",
+        "options": {
+            "a": "Science and Technology updates.",
+            "b": "Business, Finance, and the Economy.",
+            "c": "Culture, Book Reviews, and Opinion columns.",
+            "d": "How-to guides, DIY, or Skill Development sections."
+        }
+    },
+    {
+        "question": "When faced with a complex problem, what is your first instinct? 🤔",
+        "options": {
+            "a": "Break it down into logical steps and analyze the data.",
+            "b": "Understand the human impact or the different perspectives involved.",
+            "c": "Think of a practical, hands-on solution to get it done.",
+            "d": "Look for patterns and develop a strategy to manage the situation."
+        }
+    },
+    {
+        "question": "Which of these tasks sounds the most satisfying to you? ✨",
+        "options": {
+            "a": "Discovering a new fact or principle.",
+            "b": "Persuading or helping people.",
+            "c": "Creating something tangible and useful.",
+            "d": "Organizing a system to make it more efficient."
+        }
+    },
+    {
+        "question": "Imagine you are part of a team creating a new mobile app. What role would you love to play? 📱",
+        "options": {
+            "a": "The Coder/Developer who builds the app's features.",
+            "b": "The Designer/Writer who creates the user experience and engaging content.",
+            "c": "The Project Manager who handles the budget, timeline, and team coordination.",
+            "d": "The Marketer who creates a strategy to sell the app to the world."
+        }
+    },
+    {
+        "question": "What kind of questions do you ask most often? ❓",
+        "options": {
+            "a": "'How does this work?'",
+            "b": "'Why do people do that?'",
+            "c": "'How can we make this better or more profitable?'",
+            "d": "'How can I build this myself?'"
+        }
+    },
+    {
+        "question": "If you were to watch a documentary, which topic would you pick? 🎬",
+        "options": {
+            "a": "The life of a famous CEO or the history of the stock market.",
+            "b": "Exploring space, the deep sea, or the animal kingdom.",
+            "c": "Ancient civilizations, political movements, or the life of an artist.",
+            "d": "How things are made in a factory or the process of learning a craft."
+        }
+    },
+    {
+        "question": "In school, which type of assignment do you enjoy the most? 🏫",
+        "options": {
+            "a": "Lab reports or solving math problems.",
+            "b": "Writing essays, participating in debates, or creating presentations.",
+            "c": "Case studies or business-related projects.",
+            "d": "Practical work in a computer lab or a workshop."
+        }
+    },
+    {
+        "question": "What do you value most in a future career? 💼",
+        "options": {
+            "a": "Innovation and Discovery.",
+            "b": "Financial Growth and Leadership.",
+            "c": "Creativity and Social Impact.",
+            "d": "Mastery of a tangible Skill."
+        }
+    },
+    {
+        "question": "You are given ₹5,000 to start a small project. What would you do? 💰",
+        "options": {
+            "a": "Buy some raw materials to build a new gadget or kit.",
+            "b": "Buy and sell a popular item to try and make a profit.",
+            "c": "Fund a small social awareness campaign or create a short film.",
+            "d": "Invest it in a short-term online course to learn a new skill."
+        }
+    }
+]
