@@ -62,16 +62,15 @@ prompt = ChatPromptTemplate.from_messages([SystemMessage(content=path_generation
 
 chain = prompt | llm | JsonOutputParser()
 
-with open('questions.json',encoding="utf8") as file:
-    questions = json.load(file)
 
 
-for question in questions:
-    print(question["question"])
-    for item in question["options"].keys():
-        print(f"{item}. {question["options"][item]}")
-    user_choice = input("Your Answer: ")
-    question["answer"] = question["options"][user_choice]
+
+# for question in questions:
+#     print(question["question"])
+#     for item in question["options"].keys():
+#         print(f"{item}. {question["options"][item]}")
+#     user_choice = input("Your Answer: ")
+#     question["answer"] = question["options"][user_choice]
 
 reformated_question = [f"{question["question"]} -> {question["answer"]}" for question in questions]
 
