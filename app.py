@@ -23,7 +23,7 @@ logout_page = st.Page(logout, title="Log out", icon=":material/logout:")
 
 quiz = st.Page("dashboard/1_Quiz.py", title="Quiz", default=True)
 pathways = st.Page("dashboard/2_Pathways.py", title="Pathways")
-learning_resource = st.Page("dashboard/3_Learning_Resources.py", title="Learning Resource")
+learning_resource = st.Page("dashboard/3_Roadmaps.py", title="Roadmaps")
 
 
 if st.session_state.logged_in:

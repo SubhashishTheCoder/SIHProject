@@ -1,5 +1,7 @@
 import  streamlit as st
 import json
+from backend import get_career_path
+from threading import Thread
 
 st.set_page_config(page_title="Career Guidance Quiz", page_icon="🎓")
 
@@ -19,4 +21,7 @@ if btn_recommend:
     for question in questions:
         user_choice = f"{question['question']} -> {st.session_state[question['question']]}"
         user_selection.append(user_choice)
-    print(user_selection)
+    st.session_state["shared_data"] = get_career_path(user_selection)
+    st.success("Data saved to session state!")
+    roadmap_page = st.Page("dashboard/2_Pathways.py",title="Roadmap")
+    st.switch_page(roadmap_page)
